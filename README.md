@@ -2,6 +2,13 @@
 
 A small script `setup.sh` to set up CUDA aware MPI on moonshot and ThetaGPU.
 
+## On ThetaGPU
+
+DO NOT load any other openmpi module than is loaded when you login onto the GPU
+nodes.
+
+## Installation
+
 ```
 ./setup.sh
 ```
