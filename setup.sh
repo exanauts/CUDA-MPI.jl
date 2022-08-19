@@ -3,7 +3,7 @@
 HOSTNAME=`hostname`
 DOMAIN=`hostname -d`
 if [ "$HOSTNAME" = moonshot ]; then
-  export JULIA_MPI_PATH=/scratch/local
+  export JULIA_MPI_PATH=/disk/local
   export JULIA_CUDA_MEMORY_POOL=none
   export JULIA_MPI_BINARY=system
   export JULIA_CUDA_USE_BINARYBUILDER=false
